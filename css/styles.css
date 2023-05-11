@@ -1,0 +1,80 @@
+/*Para asignarle estilo a toda la pagina solo escribir "*", ej: *{aqui los estilos}*/
+/*Para asignarle estilo a las etiquetas html va directamente la etiqueta, ej: h1{aqui los estilos} */
+/*Para asignarle estilo a las clases escribir primero un "." seguido por el nombre de la clase, ej: .claseejemplo{aqui los estilos}*/
+/*Para asignarle estilo al id escribir primero un "#" seguido por el nombre del id, ej: #idejemplo{aqui los estilos}*/
+
+/*Receteo de la página completa para asegurarnos de que en cualquier explorador se va a ver exactamente igual por la diferencias de margenes de los exploradores*/
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color:plum;
+}
+/*Agregamos margenes inferiores a los sections, pero lo comento porque por el momento no lo necesito*/
+/* section{
+    margin-bottom: 20px;
+    margin-top: 20px;
+} */
+
+/* Al usar boostrap se siguen observando las bolitas negras en las listas, 
+para quitarlas y sirve por para todas las etiquetas ul hacer: ul {list-style: none;}*/
+ul{
+    list-style-type: none;
+}
+/*Tamaño de la img en relacion a la pag. en terminos de porcentaje*/
+img{
+    width: 200px;
+    border-radius: 50%;
+/* Desplazo la img hacia la izquierda */
+    float: right;
+    margin-right: 150px;
+}
+p{
+    font-size: 16px;
+/* para encuadrar alrededor de la imagen el parrafo */
+    /* border: #6733c7 8px solid; */
+}
+iframe{
+    width: 300px;
+    border-radius: 16px;
+}
+h1{
+    font-size: 2rem;
+    color: white;
+}
+h2{
+    font-size: 2rem;
+}
+/* Seccion de navegacion */
+.justify-content-end{
+    background-image: url(../assets/img/logo_AP_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: plum;
+/* en ancho horizontal del navbar*/
+    /* padding: 1px; */
+/* para fijar hacia la izquierda la barra de navegaci¿on */
+    position: fixed;
+/* para que cuaando se fija siga ocupando todo el ancho de la pantalla */
+    width: 100%;
+/* para darle transparencia a la barra de navegacion fijado */
+    opacity: 80%;
+}
+h5{
+    color: plum;
+}
+.fondo-presentacion{
+    padding: 16%;
+    background-image: url(../assets/img/fondo_de_pantalla_seccion_superiortechnologybackground.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*para que al ampliar no se corte la imagen del fondo*/
+    background-position: center;
+}
+.breadcrumb-item{
+    color: plum;
+    
+}
