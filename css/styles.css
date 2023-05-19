@@ -10,7 +10,7 @@
     text-align: center;
 }
 body{
-    background-color:plum;
+    background-color: plum;
 }
 /*Agregamos margenes inferiores a los sections, pero lo comento porque por el momento no lo necesito*/
 /* section{
@@ -63,8 +63,9 @@ h2{
     opacity: 80%;
 }
 h5{
-    color: plum;
+    color: violet;
 }
+/*Sección de Bienvenidos al portfolio*/
 .fondo-presentacion{
     padding: 16%;
     background-image: url(../assets/img/fondo_de_pantalla_seccion_superiortechnologybackground.jpg);
@@ -74,7 +75,9 @@ h5{
 /*para que al ampliar no se corte la imagen del fondo*/
     background-position: center;
 }
+/*Sección miga de pan que se irá agregando a las siguientes páginas con el correspondiente a href*/
 .breadcrumb-item{
-    color: plum;
+    color: violet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
