@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <!--Estilos de hojas de cascada remotas. Para usar bootstrap sin necesidad de descargarlo en mi proyecto con el manejador de paquetes npm-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
 <!--Para usar Fontawsome, si no lo voy a usar no es necesario que esté-->
     <script src="https://kit.fontawesome.com/4e1510a110.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/styles.css">
     <title>👋 Hello World!</title>
 </head>
 <body>
+
 <!--Seccion barra de navegación con redes, mail e inicio de sesión-->
     <section>
         <nav>
@@ -40,31 +43,40 @@
             </ul>
         </nav>
     </section>
+    
+
+<!--Seccion presentacion con imagen de fondo-->
+           <section class="fondo-presentacion">
+            
 <!--Sección logo Argentina Programa-->
-    <section class="fondo-presentacion"><a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"><img src="../assets/img/logo_AP_2.png" alt=""></a>
-<!-- En estos <nav>...</nav> estoy usando Migas de pan que sirven para la accesibilidad, agregarle tantos "<li class="breadcrumb-item active" aria-current="page">Login</li>" o 
+            <!--<a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"><img class="logo-ap-linck"src="../assets/img/logo_AP_2.png" alt=""></a>-->
+            <!-- En estos <nav>...</nav> estoy usando Migas de pan que sirven para la accesibilidad, agregarle tantos "<li class="breadcrumb-item active" aria-current="page">Login</li>" o 
 "<li class="breadcrumb-item"><a href="./index.html">Home Portfolio</a></li>", el que corresponda, como paginas vaya agregando y referenciarlas 
 respectivamente en "<a href=""></a>" segun corresponda-->
-        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">Home Portfolio</a></li>
-              <!-- <li class="breadcrumb-item active" aria-current="page">Login</li> -->
-            </ol>
-          </nav>
-        <h1><i>Bienvenidos al Portfolio de Andrea V. Luque</i></h1>
+ <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">Home Portfolio</a></li>
+      <!-- <li class="breadcrumb-item active" aria-current="page">Login</li> -->
+    </ol>
+  </nav>
+            <h1><i>Bienvenidos al Portfolio de Andrea V. Luque</i></h1>
         <h5>Técnico en electrónica</h5>
             <h5>Desarrollo Web Full Stack Jr.</h5>
     </section>
+
 <!--Sección sobre mí-->
     <section>
         <div>
             <h2 class="text-center mt-4 pb-3">Sobre mi</h2>
+
 <!--Aca uso un href de video a donde te redirige al dar click sobre la foto.
-La propiedad title="..." en la img sirve para que se observe un cartel chico con el texto que se le asigne al title  a modo de explicacion-->
-        <a href="https://www.youtube.com/watch?v=a4D1zg0tlvg" target="_blank"><img src="/assets/img/foto_andrea.jpg" alt="Foto de quién desarrolló el presente portfolio, redirige a youtube música relajante" title="Foto de Andrea"></a>
+    La propiedad title="..." en la img sirve para que se observe un cartel chico con el texto que se le asigne al title  a modo de explicacion-->
+        <a href="https://www.youtube.com/watch?v=a4D1zg0tlvg" target="_blank"> <img src="../assets/img/foto_andrea.jpg" class= "img-thumbnail" alt="Foto de quién desarrolló el presente portfolio, redirige a youtube música relajante" title="Foto de Andrea"></a>
+
 <!--Estos son ejemplos de como se usan cosas importantes que quizas usare-->  
             <p>
-                Soy Técnico en electrónica hace mas de 20 años. Actualmente soy estudiante de programación, desarrollo web y QA Testing. En lo laboral me encuantro trabajando como asistente en un estudio de grabación part-time, y de manera independiente manejo mi propio taller de reparación y mantenimiento de celulares y dispositivos móviles.
+                Soy Técnico en electrónica hace mas de 20 años. Actualmente soy estudiante de programación, desarrollo web y QA Testing. En lo laboral me encuantro trabajando como asistente en un estudio de grabación part-time, y de manera independiente manejo mi propio taller de reparación y mantenimiento principalmente de celulares y dispositivos móviles.
+<br>
 <br>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo facilis doloribus error quisquam debitis nostrum laboriosam incidunt, voluptatum, sed non itaque aspernatur aliquid suscipit velit provident labore voluptatem perspiciatis perferendis?
 Repellendus aut ipsum voluptas. Deleniti, tempora, nam delectus optio totam doloribus quo soluta ducimus vel sit culpa, blanditiis veritatis accusantium expedita molestiae? Accusamus provident, tenetur itaque odit corrupti modi temporibus!
@@ -74,30 +86,35 @@ Qui quaerat, quos porro labore tenetur consequatur similique accusamus fuga tota
             <a href="https://www.google.com.ar/?client=safari" target="_blank">ir a Google</a>
         </div>
     </section>
- <!--Sección sobre habilidades blandas y duras-->
+ 
+<!--Sección sobre habilidades blandas y duras-->
     <section>
         <h2>Habilidades</h2>
         <h3>Habilidades blandas</h3>
         <h3>Habilidades duras</h3>
     </section>
+
 <!--Sección sobre experiencia laboral-->
     <section>
         <h2>Experiencia laboral</h2>
     </section>
+
 <!--Sección sobre proyectos realizados y/o en curso-->
     <section>
         <h2>Proyectos</h2>
     </section>
- <!--Sección sobre educación-->
+
+<!--Sección sobre educación-->
     <section>
         <h2>Educación</h2>
         <h2>Otras formaciones</h2>
     </section>
  
- <!--Sección sobre mis hobbies-->
+<!--Sección sobre mis hobbies-->
     <section>
         <h2>Hobbies</h2>
     </section>
+
 <!--Sección contacto-->
     <section>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0477761974844!2d-58.39380328477032!3d-34.60295338045967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac100bae20b%3A0x1338328fa943a012!2sLavalle%201735%2C%20C1048%20San%20Nicolas%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1682974690066!5m2!1ses-419!2sar" 
@@ -112,7 +129,8 @@ Qui quaerat, quos porro labore tenetur consequatur similique accusamus fuga tota
         <br>
         <button type="submit">Enviar</button>
     </section>
-   <!--Scripts remotos de Bootstrap. Para usar bootstrap sin necesidad de descargarlo en mi proyecto con el manejador de paquetes npm-->
+   
+<!--Scripts remotos de Bootstrap. Para usar bootstrap sin necesidad de descargarlo en mi proyecto con el manejador de paquetes npm-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
