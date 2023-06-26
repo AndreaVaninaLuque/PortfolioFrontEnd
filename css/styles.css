@@ -9,9 +9,12 @@
     padding: 0;
     text-align: center;
 }
+
 body{
     background-color: plum;
+    font-family: Menlo, Monaco, 'Courier New', monospace;
 }
+
 /*Agregamos margenes inferiores a los sections, pero lo comento porque por el momento no lo necesito*/
 /* section{
     margin-bottom: 20px;
@@ -25,13 +28,22 @@ ul{
 }
 /*Tamaño de la img en relacion a la pag. en terminos de porcentaje*/
 img{
-    width: 200px;
+   width: 200px;
     border-radius: 50%;
-/* Desplazo la img hacia la izquierda */
+/* Desplazo la img hacia la izquierda y el texto alrededor de ella, cambiar a float: center en caso de querer centrar la img pero el texto no estarían alrededor */
     float: right;
-    margin-right: 150px;
+    margin-right: 44px;
+     width: 152px;
+/* Para superponer la img sobre el fondo de pantalla*/
+    margin-top: -170px;
+    z-index: 1;
+}
+.img-thumbnail{
+    border: #6733c7 2px solid;
+    border-style: dotted;
 }
 p{
+    justify-content: center;
     font-size: 16px;
 /* para encuadrar alrededor de la imagen el parrafo */
     /* border: #6733c7 8px solid; */
@@ -47,24 +59,31 @@ h1{
 h2{
     font-size: 2rem;
 }
+
 /* Seccion de navegacion */
 .justify-content-end{
     background-image: url(../assets/img/logo_AP_2.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: plum;
+
 /* en ancho horizontal del navbar*/
-    /* padding: 1px; */
+/* padding: 1px; */
+
 /* para fijar hacia la izquierda la barra de navegaci¿on */
     position: fixed;
+
 /* para que cuaando se fija siga ocupando todo el ancho de la pantalla */
     width: 100%;
+
 /* para darle transparencia a la barra de navegacion fijado */
     opacity: 80%;
 }
-h5{
+
+h5{  
     color: violet;
 }
+
 /*Sección de Bienvenidos al portfolio*/
 .fondo-presentacion{
     padding: 16%;
@@ -72,12 +91,16 @@ h5{
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
-/*para que al ampliar no se corte la imagen del fondo*/
+
+    /*para que al ampliar no se corte la imagen del fondo*/
     background-position: center;
 }
+
 /*Sección miga de pan que se irá agregando a las siguientes páginas con el correspondiente a href*/
 .breadcrumb-item{
     color: violet;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    padding-left: 1px;
+    margin-top: 1px;
+    font-family: Menlo, Monaco, 'Courier New', monospace;
 }
+
